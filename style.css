@@ -23,6 +23,7 @@
   
   section {
     padding: 20px;
+    width: 50px;
     margin-bottom: 20px;
     background: #FFA500;
   }
@@ -49,7 +50,7 @@
   }
   
   #full {
-    width: 100%;
+    width: 60%;
     overflow: auto;
     clear: both;
     color: #777;
@@ -59,17 +60,29 @@
   #division {
     padding: 20px;
     margin-top: 20px;
-    background: #214fb3;
+    background: #777;
+  }
+
+  #division1 {
+    padding: 20px;
+    margin-top: 0px;
+    background: white;
+  }
+
+  #division2 {
+    padding: 20px;
+    margin-top: 20px;
+    background: white;
   }
   
   aside {
-    float: left;
+    display: inline-block;
     width: 33%;
     height: 200px;
     padding: 20px;
     margin-left: 30px;
     text-decoration-color: white;
-    background: #a6b747;
+    background: white;
     border: 1px solid #eee;
   }
   
