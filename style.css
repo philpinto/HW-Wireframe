@@ -23,17 +23,11 @@
   
   section {
     padding: 20px;
-    width: 50px;
+    width: 920px;
     margin-bottom: 20px;
-    background: #FFA500;
+    background: #777;
   }
   
-  #left {
-    float: left;
-    width: 33.3%;
-    color: #777;
-    background: white;
-  }
   
   #middle {
     float: left;
@@ -42,15 +36,9 @@
     background: white;
   }
   
-  #right {
-    float: left;
-    width: 33.3%;
-    color: #777;
-    background: white;
-  }
-  
   #full {
-    width: 60%;
+    width: 50%;
+    height: 400px;
     overflow: auto;
     clear: both;
     color: #777;
@@ -59,6 +47,7 @@
   
   #division {
     padding: 20px;
+    width: auto;
     margin-top: 20px;
     background: #777;
   }
@@ -76,11 +65,12 @@
   }
   
   aside {
-    display: inline-block;
-    width: 33%;
-    height: 200px;
+    float: right;
+    width: 48%;
+    height: 400px;
     padding: 20px;
-    margin-left: 30px;
+    margin-left: 2px;
+    margin-bottom: -400px;
     text-decoration-color: white;
     background: white;
     border: 1px solid #eee;
